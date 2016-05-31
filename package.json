@@ -4,19 +4,18 @@
   "description": "demonstrate npm dependency resolution issue",
   "repository": {
     "type": "git",
-    "url": "git+https://github.paypal.com/jzetlen/fear-of-npm.git"
+    "url": "zetlen/fear-of-npm.git"
   },
   "main": "index.js",
   "scripts": {
     "prepublish": "node is-async-present.js"
   },
-  "author": "jzetlen",
+  "author": "zetlen",
   "license": "ISC",
   "dependencies": {
-    "bundalo": "^1.0.0",
-    "grunt-legacy-util": "^0.2.0"
+    "@jzetlen/depends-on-async1": "^1.0.0"
   },
   "devDependencies": {
-    "async": "^0.8.0"
+	  "async": "^0.8.0"
   }
 }
